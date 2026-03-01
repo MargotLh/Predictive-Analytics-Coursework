@@ -62,9 +62,8 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-5. Run notebooks in order:
-   - `EDA_section2.ipynb`
-   - `preprocessing_section3.ipynb`
+5. Run the notebook in order:
+  
 
 ---
 
