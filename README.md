@@ -56,3 +56,17 @@ Open `final_notebook_MSIN0097_Coursework.ipynb` and run all cells top to bottom.
 | Leakage columns excluded | `reservation_status`, `reservation_status_date`, `assigned_room_type` |
 | Duplicates | Kept, 26.8% apparent duplicates due to anonymisation, not true duplicates |
 | Scaling | StandardScaler on MLP and Logistic Regression inputs only, tree models are scale-invariant |
+
+## Data
+
+The dataset used is the Hotel Booking Demand dataset, publicly available on Kaggle:
+https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
+
+Download hotel_bookings.csv and place it in the /data folder before running the notebooks.
+The file is not included in this repository due to Kaggle's terms of use.
+
+## How to Run
+
+1. Download the dataset and place hotel_bookings.csv in /data
+2. Install dependencies: pip install -r requirements.txt
+3. Run the notebooks in order: Section 2 EDA → Section 3 Preprocessing → Section 4 Models → Section 5 Tuning
