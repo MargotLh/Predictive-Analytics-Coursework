@@ -22,7 +22,7 @@ Detailed agent interactions and accept/reject decisions are documented in the Ag
 ## Repository Structure
 ```
 hotel-booking-cancellation/
-├── final_notebook_predictives.ipynb  # Full pipeline, EDA through final evaluation
+├── final_notebook_MSIN0097_Coursework.ipynb  # Full pipeline, EDA through final evaluation
 ├── requirements.txt                  # Python dependencies
 └── README.md                         # This file
 ```
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-Open `final_notebook_predictives.ipynb` and run all cells top to bottom. Section 3 must complete before Sections 4 and 5, as intermediate CSVs are generated there and read by subsequent sections.
+Open `final_notebook_MSIN0097_Coursework.ipynb` and run all cells top to bottom. Section 3 must complete before Sections 4 and 5, as intermediate CSVs are generated there and read by subsequent sections.
 
 ## Key Decisions
 
